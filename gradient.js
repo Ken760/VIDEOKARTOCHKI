@@ -5,6 +5,7 @@ var colors = new Array(
     [49,140,231],// типа голубой
     [123,72,174],// фиолетовый
     [166,68,0]);// оранжевый
+  
   var step = 0;
   //color table indices for: 
   // current color left
