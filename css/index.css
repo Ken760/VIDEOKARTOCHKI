@@ -26,7 +26,7 @@ body {
 
 .block {
     width: 50%;
-    margin: 5px;
+    margin:10px;
     padding: 7px;
     background: -webkit-linear-gradient(top, rgb(252, 252, 252), rgb(247, 247, 247) 3%, rgb(242, 242, 242) 12%, rgb(217, 217, 217) 90%, rgb(191, 191, 191));
     box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 5px 3px;
