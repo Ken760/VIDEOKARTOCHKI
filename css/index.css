@@ -11,9 +11,13 @@ body {
 .header {
     display: flex;
     justify-content: center;
-    background-color: #fff954;
+    /* background-color: #fff954; */
     color: #282828;
     text-align: center;
+    background: -webkit-linear-gradient(top, rgb(104, 159, 90) 30%, rgb(115, 166, 19) 60%, rgb(193, 225, 125) 90%, rgb(177, 213, 106) 100%, rgb(191, 191, 191));
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 5px 3px;
+    /* background-color: linear-gradient(top, rgb(104,159,4),rgb(115,166,19),rgb(193,225,125),) */
+
 }
 
 .container {
@@ -26,7 +30,7 @@ body {
 
 .block {
     width: 50%;
-    margin:10px;
+    margin: 10px;
     padding: 7px;
     background: -webkit-linear-gradient(top, rgb(252, 252, 252), rgb(247, 247, 247) 3%, rgb(242, 242, 242) 12%, rgb(217, 217, 217) 90%, rgb(191, 191, 191));
     box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 5px 3px;
@@ -74,4 +78,53 @@ a.button {
         inset 0 0 3px rgba(255, 255, 255, .5);
     -webkit-transform: translate(0, 4px);
     transform: translate(0, 4px);
+}
+
+h1 {
+
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+
+        0px 8px 13px rgba(0, 0, 0, 0.1),
+
+        0px 18px 23px rgba(0, 0, 0, 0.1);
+
+
+
+
+    color: #222;
+    transition: all 1s;
+}
+
+h1:hover {
+    text-shadow: -1px -1px #000,
+        0 1px 0 #444;
+    color: #1A1A1A;
+}
+.hide {
+    display: none; 
+}
+.hide + label ~ div{
+    display: none;
+}
+/* оформляем текст label */
+.hide + label {
+    border-bottom: 1px dotted green;
+    padding: 0;
+    color: green;
+    cursor: pointer;
+    display: inline-block; 
+}
+/* вид текста label при активном переключателе */
+.hide:checked + label {
+    color: red;
+    border-bottom: 0;
+}
+/* когда чекбокс активен показываем блоки с содержанием  */
+.hide:checked + label + div {
+    display: block; 
+    background: #efefef;
+    -moz-box-shadow: inset 3px 3px 10px #7d8e8f;
+    -webkit-box-shadow: inset 3px 3px 10px #7d8e8f;
+    box-shadow: inset 3px 3px 10px #7d8e8f;
+    padding: 10px; 
 }
