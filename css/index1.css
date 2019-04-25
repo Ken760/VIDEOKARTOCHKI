@@ -1,55 +1,35 @@
 body {
-    /* margin: 0;*/
     font-family: 'Rubik', sans-serif;
-    /* background-color:#e8e8e8 */
-    background-color: #000000;
     padding: 0px;
     margin: 0px;
 
 }
 
+
+
 .header {
     display: flex;
     justify-content: center;
-    background-color: #fff954;
     color: #282828;
     text-align: center;
-    /* background: -webkit-linear-gradient(top, rgb(104, 159, 90) 30%, rgb(115, 166, 19) 60%, rgb(193, 225, 125) 90%, rgb(177, 213, 106) 100%, rgb(191, 191, 191)); */
+    background-color: #fff954;
     box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 5px 3px;
-    /* background-color: linear-gradient(top, rgb(104,159,4),rgb(115,166,19),rgb(193,225,125),) */
-
+    
+    
 }
-
-.container {
+.container{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     margin: 1%;
-}
-
-.block {
-    width: 50%;
-    margin: 10px;
-    padding: 7px;
-    /* background: -webkit-linear-gradient(top, rgb(252, 252, 252), rgb(247, 247, 247) 3%, rgb(242, 242, 242) 12%, rgb(217, 217, 217) 90%, rgb(191, 191, 191)); */
-    background: rgb(229, 229, 229);
-    box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 5px 3px;
-    border-radius: 5px;
-    border: 0px solid black;
 
 }
 
-img {
-    width: 30%;
-    height: 30%;
+.information-block{
+    text-align: center;
 }
-
-.content {
-    display: flex;
-}
-
-a.button {
+.button {
     display: inline-block;
     font-weight: bold;
     color: #282828;
@@ -66,7 +46,7 @@ a.button {
         inset 0 1px rgba(255, 255, 255, .3),
         inset 0 0 3px rgba(255, 255, 255, .5);
     transition: .2s;
-    margin: 5px;
+    margin: 10px;
 }
 
 .button:active {
@@ -80,7 +60,34 @@ a.button {
     -webkit-transform: translate(0, 4px);
     transform: translate(0, 4px);
 }
+h2{
+    text-align: center;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    background: rgb(229, 229, 229);   
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 5px 3px;
+    border-radius: 5px;
+    border: 0px solid black; 
+}
+ .column1{
+    font-weight: 500;
+    margin:-40px;
+    padding: 4px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.column2{
+    font-weight: 250;
+    margin: 5px;
+    padding: 1px;
+    line-height: 1.5;
+    text-align: justify;
 
+}
 h1 {
 
     text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
@@ -88,12 +95,19 @@ h1 {
         0px 8px 13px rgba(0, 0, 0, 0.1),
 
         0px 18px 23px rgba(0, 0, 0, 0.1);
-    color: #222;
+    color: white;
     transition: all 1s;
 }
+h2{
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
 
-h1:hover {
-    text-shadow: -1px -1px #000,
-        0 1px 0 #444;
-    color: #1A1A1A;
+    0px 8px 13px rgba(0, 0, 0, 0.1),
+
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+color:white;
+transition: all 1s;  
+}
+iframe{
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 5px 3px;
+    border-radius: 5px;
 }

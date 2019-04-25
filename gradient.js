@@ -58,3 +58,7 @@ var colors = new Array(
   }
   
   setInterval(updateGradient,10);
+  function view(n) {
+    style = document.getElementById(n).style;
+    style.display = (style.display == 'block') ? 'none' : 'block';
+}
