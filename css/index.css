@@ -5,7 +5,6 @@ body {
     background-color: #000000;
     padding: 0px;
     margin: 0px;
-
 }
 
 .header {
@@ -82,7 +81,7 @@ a.button {
 }
 
 h1 {
-
+    
     text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
 
         0px 8px 13px rgba(0, 0, 0, 0.1),
@@ -97,3 +96,20 @@ h1:hover {
         0 1px 0 #444;
     color: #1A1A1A;
 }
+
+@media screen and (max-width: 992px) {
+    h1 {
+        font-size: 25px;
+    }
+    .block{
+       width: 70%;
+       width: 80%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, the background color is olive */
+  @media screen and (max-width: 600px) {
+    body {
+    
+    }
+  }

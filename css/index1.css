@@ -112,17 +112,24 @@ iframe{
 }
 
 @media screen and (max-width: 992px) {
-    .container{
-        width: 200%;
-    }   
-    .header{
-        width: 210%;
+    h1 {
+        font-size: 25px;
     }
+ iframe{
+     width: 400px;
+     height: 200px;
+ }
+ .box{
+     width: 400px;
+ }
+ img{
+     width: 600px;
+ }
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .block{
-        width: 100%;
+        width: 320px;;
         margin: 0;
     }  
-}
+} */
