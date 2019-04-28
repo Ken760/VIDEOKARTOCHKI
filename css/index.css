@@ -98,18 +98,9 @@ h1:hover {
 }
 
 @media screen and (max-width: 992px) {
-    h1 {
-        font-size: 25px;
-    }
+
     .block{
        width: 95%;
        
-    }
-  }
-  
-  /* On screens that are 600px wide or less, the background color is olive */
-  @media screen and (max-width: 600px) {
-    body {
-    
     }
   }

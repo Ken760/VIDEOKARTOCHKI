@@ -110,29 +110,18 @@ iframe{
     box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 5px 3px;
     border-radius: 5px;
 }
-img {
-    -webkit-
-}
 
-@media screen and (max-width: 992px) {
-    h1 {
-        font-size: 25px;
+@media screen and (max-width: 900px) {
+   
+    iframe{
+        width: 400px;
+        height: 200px;
     }
- iframe{
-     width: 400px;
-     height: 200px;
- }
- .box{
-     width: 400px;
- }
- img{
-     width: 600px;
- }
-}
-
-/* @media screen and (max-width: 600px) {
-    .block{
-        width: 320px;;
-        margin: 0;
-    }  
-} */
+    .box{
+        width: 100%;
+    }
+    img{
+        width: 100%;
+    }
+   
+   }
