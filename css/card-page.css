@@ -111,17 +111,17 @@ iframe{
     border-radius: 5px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 992px) {
    
     iframe{
-        width: 400px;
-        height: 200px;
+        width: 370px;
+        height: 190px;
     }
     .box{
         width: 100%;
     }
     img{
-        width: 100%;
+        width: 90%;
     }
    
    }
