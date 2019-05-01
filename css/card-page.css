@@ -110,12 +110,17 @@ iframe{
     box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 5px 3px;
     border-radius: 5px;
 }
+.back{
+ all: none;
+ text-decoration: none;
+ color: black;
+}
 
 @media screen and (max-width: 992px) {
    
     iframe{
-        width: 370px;
-        height: 190px;
+        width: 350px;
+        height: 180px;
     }
     .box{
         width: 100%;
